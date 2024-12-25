@@ -1,0 +1,10 @@
+/* MEDIA OVERWRITE AND NEW SETTINGS */
+@media screen and (max-width: 950px){
+    .grid-flip{
+        order: 1;
+    }
+    
+    .main-title{
+        text-align: center;
+    }
+}

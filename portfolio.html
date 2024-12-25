@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Review this part and modify it to your liking -->
+    <meta name="description" content="Sample text for portfolio template meta tag">
+    <meta name="keywords" content="Sample text for portfolio template meta tag">
+    <meta name="author" content="Sample text for portfolio template meta tag">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- This page benefits from the main css and also from the about-me css, that is why all 3 is linked -->
+    <link rel="stylesheet" type="text/css" href="style-about-me.css">
+    <link rel="stylesheet" type="text/css" href="style-portfolio.css">
+    <!-- font for the quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <!-- font for the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <!-- font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav class="sticky">
+        <label for="drop" class="toggle" id="main-toggle">
+            <span class="nav-icon"></span>
+        </label>
+        <input type="checkbox" id="drop">
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="skill-set.html">Skill-set</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html#contact-me">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Use align center accordingly as it my center vertically the image or the text. Or if you do not want to use it at all, then just delete it -->
+    <!-- project1 -->
+    <section class="grid-system-2 w-900 padding">
+        <section class="justify align-center">
+            <h3 class="main-title padding-top">Pneumonia Prediction Using X-ray Image</h3>
+            <p>
+                This project focuses on using machine learning and deep learning techniques to detect pneumonia in patients through X-ray images.
+            </p>
+            <p>
+                By employing convolutional neural networks (CNNs), we aim to create a model capable of classifying X-ray images as either showing signs of pneumonia or being clear of the condition. The model will be trained on a large dataset of X-ray images, allowing it to learn and make accurate predictions based on the features extracted from these images.
+            </p>
+            <p>
+                The goal is to provide a tool for medical professionals that can help them identify pneumonia in patients quickly and accurately, ultimately improving the speed and efficiency of diagnoses. This project combines medical expertise with cutting-edge AI technologies to enhance healthcare outcomes and provide valuable support in clinical settings.
+            </p>
+            
+            <p class="center">Links:
+                <span class="center">
+                    <a class="link colorful-letter" href="https://www.kaggle.com/sarimr" target="_blank">Kaggle</a>
+                    <!-- <span> </span> -->
+                    <!-- <a class="link colorful-letter" href="https://www.instagram.com/" target="_blank">Instagram</a> -->
+                </span>
+            </p>
+            <p class="padding-top"><a href="project1.html" class="button-outline">More info</a></p>
+        </section>
+        <section class="center">
+            <p><a href="project1.html"><img class="max-width" src="assets/project1.jpeg" alt="project1"></a>
+        </section>
+    </section>
+
+    <!-- project2 -->
+    <section class="grid-system-2 w-900 padding">
+        <section class="justify align-center">
+            <h3 class="main-title padding-top">Breast Cancer Detection Using Machine Learning</h3>
+<p>
+    Breast Cancer Detection Using Machine Learning focuses on early identification of breast tumors as malignant or benign using patient cell data. By analyzing features like Clump Thickness, Uniform Cell Size, and Bare Nuclei, machine learning models improve diagnostic accuracy, aiding early intervention.
+</p>
+<p>
+    This project leverages various machine learning algorithms to classify breast tumors based on patient cell data. The goal is to help medical professionals make quicker, more accurate diagnoses, ultimately leading to better patient outcomes and improved early-stage interventions.
+</p>
+<p>
+    By employing models that can identify patterns within large datasets of cell features, this approach aims to support healthcare professionals in detecting breast cancer at an early stage, allowing for timely and effective treatment.
+</p>
+
+            <p class="center">Link:
+                <a class="link colorful-letter" href="https://www.facebook.com/share/1E1v6KoQE1/" target="_blank">Facebook</a>
+            </p>
+            <p class="padding-top"><a href="project2.html" class="button-outline">More info</a></p>
+        </section>
+        <section class="center padding-top align-center">
+            <p><a href="project2.html"><img class="max-width" src="assets/project2.png" alt="project2"></a></p>
+        </section>
+    </section>
+
+    <!-- project3 -->
+    <section class="grid-system-2 w-900 padding">
+        <section class="justify">
+            <h3 class="main-title padding-top">Virtual Mouse</h3>
+<p>
+    The Virtual Mouse project enables users to control a computer's cursor through hand gestures or facial movements, eliminating the need for a physical mouse. Using technologies like computer vision and machine learning, this system tracks specific gestures and translates them into mouse actions such as moving, clicking, and scrolling.
+</p>
+<p>
+    The system works by capturing real-time video feed from a webcam, processing the data to identify user movements, and then mapping those movements to the appropriate mouse actions. This can be particularly useful for people with physical disabilities or those seeking a more innovative, hands-free method of interacting with their computer.
+</p>
+<p>
+    By leveraging deep learning models and image processing techniques, this project offers a practical solution for creating intuitive, gesture-based control systems, enhancing accessibility and providing an alternative way to interact with technology.
+</p>
+
+            <p class="center">Link:
+                <span class="bold colorful-letter"><a class="link" href="https://github.com/SarimJaved"
+                        target="_blank">GitHub</a></span>.
+            </p>
+            <p class="padding-top"><a href="project3.html" class="button-outline">More info</a></p>
+        </section>
+        <section class="center">
+            <p><a href="project3.html"><img class="max-width" src="assets/project3.jpg" alt="project3"></a>
+        </section>
+    </section>
+
+    <!-- footer -->
+    <footer>@sarim-javed-661927296 </footer>
+</body>
+
+</html>

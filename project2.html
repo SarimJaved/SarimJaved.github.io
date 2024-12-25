@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Review this part and modify it to your liking -->
+    <meta name="description" content="Sample text for portfolio template meta tag">
+    <meta name="keywords" content="Sample text for portfolio template meta tag">
+    <meta name="author" content="Sample text for portfolio template meta tag">
+    <title>Project2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style-project.css">
+    <!-- font for the quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <!-- font for the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <!-- font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav class="sticky">
+        <label for="drop" class="toggle" id="main-toggle">
+            <span class="nav-icon"></span>
+        </label>
+        <input type="checkbox" id="drop">
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="skill-set.html">Skill-set</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html#contact-me">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <!-- project name -->
+    <section class="w-900 padding center">
+        <h2 class="medium-spacing-halfsize">Breast Cancer Prediction</h2>
+        <p class="center italic">Predicting the likelihood of breast cancer using machine learning models</p>
+    </section>
+    
+    <!-- about this project -->
+    <section class="w-900 padding center">
+        <h3 class="main-title">About this Project</h3>
+        <section>
+            <p class="justify">This project aims to predict whether a patient has breast cancer based on various medical features. Using machine learning techniques, we train a model with data from breast cancer screenings to classify tumors as malignant or benign. This prediction helps doctors in early diagnosis, enabling timely intervention and better patient outcomes. <span class="bold">Data-driven models provide a powerful tool in medical diagnostics!</span></p>
+            <p class="justify">We used a well-known dataset, the Wisconsin Breast Cancer Dataset (WBCD), which contains features like tumor size, shape, and texture. These features are crucial for classifying breast cancer and can significantly reduce human error in early detection.</p>
+        </section>
+    </section>
+    
+    <section class="w-900 padding">
+        <h3 class="main-title center">How It Works</h3>
+        <p class="justify">The model works by analyzing a patient's medical data, such as the size and shape of tumors, and categorizing them as malignant or benign. The dataset used for training contains several numerical features that help in predicting the cancerous nature of the tumor.</p>
+        <p class="center">Explore the code for this project on <span class="italic colorful-letter"><a class="link" href="https://github.com/" target="_blank">GitHub</a></span>!</p>
+    </section>
+    
+    <section class="wrapper">
+        <section class="column card">
+            <p class="bold center">Key Features Used for Prediction</p>
+            <ul class="no-bullet-list no-padding-list-item">
+                <li><span class="colorful-letter">Radius of tumor</span></li>
+                <li><span class="colorful-letter">Texture of tumor</span></li>
+                <li><span class="colorful-letter">Perimeter of tumor</span></li>
+                <li><span class="colorful-letter">Area of tumor</span></li>
+                <li><span class="colorful-letter">Smoothness of tumor boundary</span></li>
+                <li><span class="colorful-letter">Compactness of tumor</span></li>
+                <li><span class="colorful-letter">Concavity of tumor</span></li>
+                <li><span class="colorful-letter">Symmetry of tumor</span></li>
+            </ul>
+        </section>
+        <section class="column card">
+            <p class="bold center">Results & Evaluation</p>
+            <ul class="no-bullet-list no-padding-list-item">
+                <li><span class="colorful-letter">Accuracy of the model</span></li>
+                <li><span class="colorful-letter">Precision and recall rates</span></li>
+                <li><span class="colorful-letter">Confusion matrix analysis</span></li>
+                <li><span class="colorful-letter">ROC curve for model evaluation</span></li>
+            </ul>
+        </section>
+    </section>
+    
+    <!-- what did i learn -->
+    <section class="w-900 padding center baby-pink-light">
+        <h3 class="main-title">What Did I Learn</h3>
+        <ul class="justify padding-list-10">
+            <li class="no-padding-list-item"><span class="bold">This section showcases the lessons learned from implementing this project:</span></li>
+            <li class="no-padding-list-item">I learned how to apply machine learning algorithms to medical datasets, focusing on classification problems.</li>
+            <li class="no-padding-list-item">I became proficient in pre-processing medical data for machine learning, including handling missing values and scaling features.</li>
+            <li class="no-padding-list-item">The project deepened my understanding of evaluating models using metrics like accuracy, precision, recall, and ROC curves.</li>
+            <li class="no-padding-list-item">I learned to build machine learning pipelines and deploy models using Python libraries such as scikit-learn and pandas.</li> 
+            <li class="no-padding-list-item">I also explored the impact of feature selection and the importance of data balance in improving the model’s performance.</li>
+            <li class="no-padding-list-item">The project emphasized the importance of data-driven decision-making in healthcare for better diagnosis and treatment planning.</li>
+        </ul>
+    </section>
+    
+    <p class="wrapper justify-content"><a href="portfolio.html" class="link-no-scale colorful-letter">Back to portfolio</a></p>
+    
+    <!-- footer -->
+    <footer>@sarim-javed-661927296</footer>
+    </body>
+    
+    </html>
+    

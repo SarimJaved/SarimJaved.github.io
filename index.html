@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Review this part and modify it to your liking -->
+    <meta name="description" content="Sample text for portfolio template meta tag">
+    <meta name="keywords" content="Sample text for portfolio template meta tag">
+    <meta name="author" content="Sample text for portfolio template meta tag">
+    <title>My portfolio website</title>
+    <!-- Adding favicon for older and modern browsers,
+        It is best to add favicon to the main folder, 
+        I used an only ico converter for best result,
+        Do not forget to clear you cache to see the changes -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- font for the quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <!-- font for the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <!-- font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav class="sticky">
+        <label for="drop" class="toggle" id="main-toggle">
+            <span class="nav-icon"></span>
+        </label>
+        <input type="checkbox" id="drop">
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="skill-set.html">skills</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <!-- introduction -->
+    <header class="grid-system-2 w-900 padding">
+        <section class="align-center">
+            <h1 class="medium-spacing">Hello, I am</h1>
+            <h1 class="large">Sarim Javed</h1>
+            <p class="justify">An AI enthusiast with expertise in Machine Learning and Deep Learning, focused on crafting intelligent chatbots through Botpress and designing seamless, responsive web experiences with Flask, HTML, and CSS. Committed to creating innovative solutions that prioritize user experience and solve real-world problems.</p>
+        </section>
+        <section class="center align-center">
+            <img class="header-img max-width max-height" src="assets/profile-pic.jpeg" alt="profile-picture">
+        </section>
+    </header>
+
+
+    <!-- quote -->
+    <article class="baby-pink">
+        <p class="quote uppercase">Building smart machines to help solve problems, while still laughing at how my toaster always burns my bread.</p>
+        <p>I build smart machines and AI to solve real problems, making life easier, all while still laughing at how my toaster always manages to burn my bread no matter what.</p>
+    </article>
+
+    <!-- about me -->
+    <!-- That about me png is something I've made for fun, it has a purple version too, feel free to use it or change it to anything else. -->
+    <section class="wrapper">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="assets/about-me.png" alt="about-me-logo">
+        </section>
+        <section class="justify align-center">
+            <p class="bold">About me</p>
+            <p>I'm an AI and Machine Learning expert, creating smart systems and chatbots to solve real problems, while making life simpler and more enjoyable for everyone.</p>
+            <p>I'm an AI and Machine Learning expert, focused on building smart systems and chatbots that solve real-world problems.</p>
+            <p>I love making complex tasks easier through technology, whether it's creating intelligent models or designing simple websites. </p>
+            <p class="padding-top"><a href="about-me.html" class="button-outline">More info</a></p>
+        </section>
+    </section>    
+
+    <!-- skills -->
+    <!-- use this to showcase your skills, if you make changes, do not forget to modify the css accordingly -->
+    <section>
+        <h3 class="main-title center padding">Skills</h3>
+    </section>
+    <section class="wrapper">
+        <section class="column">
+            <p class="padding-bottom">Technical skills</p>
+            <section class="skills">
+                <ul class="no-bullet-list no-padding-list-item">
+                    <li>
+                        <p>Python</p>
+                        <span class="progress-bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <p>Data Science</p>
+                        <span class="progress-bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <p>Machine & Deep Learning</p>
+                        <span class="progress-bar"><span class="javascript"></span></span>
+                    </li>
+                    <li>
+                        <p>Flask,Mysql</p>
+                        <span class="progress-bar"><span class="php"></span></span>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section class="column">
+            <p class="padding-bottom">Professional skills</p>
+            <section class="skills">
+                <ul class="no-bullet-list no-padding-list-item">
+                    <li>
+                        <p>Communication</p>
+                        <span class="progress-bar"><span class="comm-adapt"></span></span>
+                    </li>
+                    <li>
+                        <p>Teamwork and Adaptability</p>
+                        <span class="progress-bar"><span class="team-player"></span></span>
+                    </li>
+                    <li>
+                        <p>Problem Solving</p>
+                        <span class="progress-bar"><span class="problem-solving"></span></span>
+                    </li>
+                    <li>
+                        <p>Open-Mindedness:</p>
+                        <span class="progress-bar"><span class="open-minded"></span></span>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </section>
+    </section>
+
+    <!-- Projects -->
+    <!-- If you have more projects you are working on at the moment, or just want to show more, double the whole section below without the title and you are good to go -->
+    <section>
+        <h3 class="main-title center padding">Projects I am currently working on</h3>
+    </section>
+    <section class="wrapper">
+        <section class="column card justify flex">
+            <img class="box" src="assets/project1.jpeg" alt="project1">
+            <p class="padding bold center">AI-Driven Healthcare Web App</p>
+            <p>Project description here.</p>
+            <p>The AI Healthcare Web App is a powerful platform that uses AI to analyze medical data, including test reports, chest X-rays, diabetes tests, stroke assessments, and blood pressure readings, to predict diseases and provide valuable health insights. It offers features like disease prediction,and blood test analysis, empowering users to make informed healthcare decisions.
+                By integrating advanced machine learning algorithms, the app enhances early diagnosis and personalized treatment planning.</p>
+            <p class="padding-top bottom"><a href="portfolio.html" class="button-outline">Portfolio</a></p>
+        </section>
+        <section class="column card justify flex">
+            <img class="box" src="assets/project2.png" alt="project2">
+            <p class="padding bold center">Medicine Interaction Chatbot & Recommendation System</p>
+            <p>The Medicine Interaction Chatbot & Recommendation System is an intelligent platform designed to assist users in understanding potential drug interactions and recommending suitable medicines based on symptoms. The chatbot leverages advanced AI and natural language processing to provide accurate and real-time information about drug safety and efficacy. It also suggests personalized medicine recommendations, 
+               ensuring the right treatment plan for various health conditions, all while improving patient safety and enhancing the healthcare experience.</p>
+            <p class="padding-top bottom"><a href="portfolio.html" class="button-outline">Portfolio</a></p>
+        </section>
+
+    </section>
+     
+    <!-- contact me -->
+    <!-- Five logo can be in one row, and if it still not enough, you can create another row, buy doubleing the "box-contact" section -->
+    <section id="contact-me" class="grid-system-2 w-900 padding">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="assets/Contact-me-img.png" alt="contact-me-illustration">
+        </section>
+        <section class="margin-auto align-center">
+            <h1 class="medium-spacing center">Let's get in touch!<span></span></h1>
+            <section class="box-contact margin-auto padding-top">
+                <span>
+                    <a href="https://www.linkedin.com/in/sarim-javed-661927296/" target="_blank"><img class="logo" src="assets/linkedin.png"
+                            alt=""></a>
+                </span>
+                <span>
+                    <a href="https://github.com/SarimJaved" target="_blank"><img class="logo" src="assets/github.png" alt=""></a>
+                </span>
+                <span>
+                    <a href="https://www.kaggle.com/sarimr" target="_blank"><img class="logo" src="assets/kaggle.png" alt=""></a>
+                </span>
+                <span>
+                    <a href="mailto:sarimr825@gmail.com" target="_blank"><img class="logo" src="assets/email.png" alt=""></a>
+                </span>
+            </section>
+        </section>
+    </section>
+
+    <!-- special thanks -->
+    <!-- Here you can see the free resources I've used for the logos and illustrations. Do not forget to give credit to the creators of the free stuffs use may use additionally -->
+    
+    <!-- footer -->
+    <!-- waits for you to take over! -->
+    <footer>@sarim-javed-661927296</footer>
+</body>
+
+</html>
